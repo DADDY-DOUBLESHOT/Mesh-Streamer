@@ -4,7 +4,7 @@ const fs=require("fs");
 
 app.get("/",function(req,res)
 {
-    // res.send("Pornhub not working .....");
+
     location.assign('index.html');
 });
 
